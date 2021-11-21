@@ -5,11 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hao</title>
+    <title>Lương Ngọc Hảo</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/reponsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./img/favicon-32x32.png" type="image/gif" sizes="32x32">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -17,16 +23,16 @@
         <div id="header">
             <!-- begin: nav -->
             <ul id="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Band</a></li>
-                <li><a href="#">Tour</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#Band">Band</a></li>
+                <li><a href="#Tour">Tour</a></li>
+                <li><a href="#Contact">Contact</a></li>
                 <li>
                     <a href="#">More <i class="fas fa-caret-down"></i></a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise </a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise </a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -35,6 +41,10 @@
             <!-- begin: search -->
             <div class="search-btn">
                 <i class="search-icon fas fa-search"></i>
+            </div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+
             </div>
             <!-- end: search -->
         </div>
@@ -52,14 +62,19 @@
 
         <div id="content">
             <!-- about section -->
-            <div class="content-section">
-                <h2 class="section-heading">THE BAND</h2>
+            <div id="Band" class="content-section">
+                <h2 class="section-heading">Cuộc gặp gỡ định mệnh</h2>
                 <p class="section-sub-heading">
-                    We love music
+                    Chúng ta của hiện tại
                 </p>
                 <p class="about">
-                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    Hi, tôi và cô ấy không hề quen biết cũng như gặp mặt trước đây, Hảoooo một chàng trai tuổi mới lên
+                    mới ngót ngét 1 mối tình kéo dài không lâu. Hôm đó tôi ngồi ngoài cửa nói chuyện điện thoại cùng
+                    bạn,
+                    ở trên phòng thằng bạn tầng 2 (tôi đi ăn ké hehe). Bỗng từ đâu xuất hiện 1 con bé đi vào phòng, à
+                    hóa
+                    ra đó là bạn của P. mắt tôi hơi cận nên nhìn thấy cũng đáng iu, nói chung lúc đó hơi vã rồi nên thấy
+                    khá là oke//// đợi nào rảnh ngồi gõ tiếp nhá........<br>
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                     occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -69,24 +84,24 @@
                 </p>
 
                 <div class="member-list">
-                    <div class="member-item">
-                        <p class="menber-name">Name</p>
-                        <img src="./img/bandmember.jpg" alt="name" class="member-img">
+                    <div class="member-item text-center">
+                        <p class="menber-name">Lương Ngọc Hảo</p>
+                        <img src="./img/hao1.jpg" alt="Hảo đẹp trai" class="member-img">
                     </div>
-                    <div class="member-item">
-                        <p class="menber-name">Name</p>
-                        <img src="./img/bandmember.jpg" alt="name" class="member-img">
+                    <div class="member-item text-center">
+                        <p class="menber-name" style="color:red;">&#10084;</p>
+                        <img src="./img/haoninh.jpg" alt="yêu" class="member-img">
                     </div>
-                    <div class="member-item">
-                        <p class="menber-name">Name</p>
-                        <img src="./img/bandmember.jpg" alt="name" class="member-img">
+                    <div class="member-item text-center">
+                        <p class="menber-name">Hoàng Thị Duy Ninh</p>
+                        <img src="./img/phoninh.jpg" alt="Ninh xấu gái" class="member-img" style="height:243px;">
                     </div>
                     <div class="clear"></div>
                 </div>
             </div>
             <!-- TOUR DATES section -->
             <div class="tour-section">
-                <div class="content-section">
+                <div id="Tour" class="content-section">
                     <h2 class="section-heading">TOUR DATES</h2>
                     <p class="section-sub-heading">
                         Remember to book your tickets!
@@ -97,35 +112,35 @@
                         <li>November <span class="soluong">3</span> </li>
                     </ul>
                     <!-- places -->
-                    <div class="place-list">
-                        <div class="place-item">
+                    <div class="row place-list">
+                        <div class="place-item s-col-full">
                             <img src="./img/newyork.jpg" alt="newyork" class="place-img">
-                            <div class="place-body">
+                            <div class="place-body text-center">
                                 <h3 class="place-heading">New york</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <div class="place-desc">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </div>
-                                <button class="place-buy-btn js-buy-ticket"> Buy Tickets</button>
+                                <button class="place-buy-btn js-buy-ticket s-full-width"> Buy Tickets</button>
 
                             </div>
                         </div>
 
-                        <div class="place-item">
+                        <div class="place-item s-col-full">
                             <img src="./img/paris.jpg" alt="Paris" class="place-img">
-                            <div class="place-body">
+                            <div class="place-body text-center">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2016</p>
                                 <div class="place-desc">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </div>
-                                <button class="place-buy-btn js-buy-ticket"> Buy Tickets</button>
+                                <button class="place-buy-btn js-buy-ticket s-full-width"> Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="place-item">
+                        <div class="place-item s-col-full">
                             <img src="./img/sanfran.jpg" alt="sanfran" class="place-img">
-                            <div class="place-body">
+                            <div class="place-body text-center">
                                 <h3 class="place-heading">San Francisco </h3>
                                 <p class="place-time">
                                     Sun 29 Nov 2016
@@ -133,7 +148,7 @@
                                 <div class="place-desc">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </div>
-                                <button class="place-buy-btn js-buy-ticket"> Buy Tickets</button>
+                                <button class="place-buy-btn js-buy-ticket s-full-width"> Buy Tickets</button>
 
                             </div>
                         </div>
@@ -142,16 +157,146 @@
 
                 </div>
             </div>
+            <div id="toast">
+                <div>
+                    <button onclick="showToast();" class="btn btn--success">SHOW SUCCESS</button>
+                    <button onclick="showErrorToast();" class="btn btn--danger">SHOW ERROR TOAST</button>
+                </div>
+                <script>
+                    function toast({
+                        title = '',
+                        message = '',
+                        type = 'info',
+                        duration = 3000
+
+                    }) {
+                        const main = document.getElementById('toast');
+                        if (main) {
+                            const toast = document.createElement('div');
+                            setTimeout(function () {
+                                main.removeChild(toast);
+                            }, duration + 1000);
+                            toast.onclick = function (e) {
+                                if (e.target.closest('.toast__close')) {
+                                    main.removeChild(toast);
+                                }
+                            }
+
+                            const icons = {
+                                success: 'fas fa-check-circle',
+                                info: 'fas fa-exclamation-circle',
+                                warning: 'fas fa-exclamation-triangle'
+                            };
+                            const icon = icons[type];
+                            const delay = (duration / 1000).toFixed(2);
+
+
+                            toast.classList.add('toast', `toast--${type}`);
+                            toast.style.animation = `slideLeft ease 0.3s, fadeOut linear 1.5s 3s forwards`;
+                            toast.innerHTML = `
+                            <div class="toast__icon">
+                                 <i class="${icon}"></i>
+                            </div>
+                            <div class="toast__body">
+                            <h3 class="toast__title">
+                                ${title}
+                            </h3>
+                            <p class="toast__message">
+                                ${message}
+                            </p>
+                             </div>
+                             <div class="toast__close">
+                                 <i class="fas fa-times"></i>
+                            </div>
+                            `;
+                            main.appendChild(toast);
+
+                        }
+                    }
+
+
+                    function showToast() {
+                        toast({
+                            title: 'Success',
+                            message: 'Bạn đã đăng kí thành công vào website chúng tôi',
+                            type: 'success',
+                            duration: 5000
+                        });
+                    }
+
+                    function showErrorToast() {
+                        toast({
+                            title: 'Warning',
+                            message: 'Cảnh báo khi dùng trình duyệt giả mạo...',
+                            type: 'warning',
+                            duration: 5000
+                        });
+                    }
+                </script>
+            </div>
+
             <!-- CONTACT section -->
-            <div class="content-section">
+            <div id="Contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">
                     Fan? Drop a note!
                 </p>
+                <div class="row contact-content">
+                    <div class="col col-half contact-info s-col-full">
+                        <p class="f-15">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Địa chỉ : Bắc Ninh</span>
+                        </p>
+                        <p class="f-15">
+                            <i class="fas fa-phone"></i>
+                            <span>SĐT: <a href="tel:0362180969">0362180969</a></span>
+                        </p>
+                        <p class="f-15">
+                            <i class="fas fa-envelope"></i>
+                            <span> Email: <a href="mailto: haoln.bn@2000">haoln.bn@2000</a></span>
+                        </p>
+                    </div>
+
+                    <div class="col col-half contact-form s-col-full">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" required name="" id="" placeholder="Name" class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" required name="" id="" placeholder="Email" class="form-control">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" required name="" id="" placeholder="Message..."
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <input class="form-submit-btn mt-16 s-full-width" type="submit" value="Gửi">
+                        </form>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="map-section">
+                <img src="./img/map.jpg" alt="map">
             </div>
         </div>
-        <div id="footer">
 
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="fab fa-facebook-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                <a href=""><i class="fab fa-instalod"></i></a>
+                <a href=""><i class="fas fa-dove"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copyright">@Lương Ngọc Hảo <a href="">haoln@hpt.vn</a> </p>
         </div>
     </div>
 
@@ -165,12 +310,14 @@
                     <i class="fas fa-briefcase icon-bag"></i> Tickets
                 </div>
             </header>
+
+
             <div class="modal-body">
                 <label for="ticket-soluong" class="modal-label">
                     <i class="fas fa-cart-plus"></i>
-                     Tickets, $15 per person
+                    Tickets, $15 per person
                 </label>
-                <input id ="js-ticket-soluong" type="text" placeholder="How many..." class="modal-input">
+                <input id="js-ticket-soluong" type="text" placeholder="How many..." class="modal-input">
 
                 <label for="ticket-email" class="modal-label">
                     <i class="far fa-user"></i>
@@ -181,17 +328,19 @@
                     Pay <i class="fas fa-check"></i>
                 </button>
             </div>
+
             <footer class="modal-footer">
-    
+
                 <p class="modal-help">Need <a style="color:#2196F3;" href="#">Help ?</a></p>
             </footer>
         </div>
     </div>
 
+
     <script>
         const buyBtns = document.querySelectorAll('.js-buy-ticket');
-        const modal =document.querySelector('.js-modal')
-        const modalContainer =document.querySelector('.js-modal-container')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer = document.querySelector('.js-modal-container')
         const modalClose = document.querySelector('.js-modal-close')
         function showBuyticket() {
             modal.classList.add('open');
@@ -201,18 +350,99 @@
             modal.classList.remove('open');
         }
 
-        for(const buyBtn of buyBtns)
-        {
-            buyBtn.addEventListener('click',showBuyticket )
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyticket)
         }
 
-        modalClose.addEventListener('click',hideBuyticket)
+        modalClose.addEventListener('click', hideBuyticket)
 
-        modal.addEventListener('click',hideBuyticket);
-        modalContainer.addEventListener('click',function(event){
+        modal.addEventListener('click', hideBuyticket);
+        modalContainer.addEventListener('click', function (event) {
             event.stopPropagation();
         })
 
+    </script>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobile_menu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        //đóng mở mobile menu
+        mobile_menu.onclick = function () {
+            // console.log(header.clientHeight); //kiem tra chieu cao header
+            var isClose = header.clientHeight === headerHeight;//46px
+            if (isClose) {
+                header.style.height = 'auto';
+
+            } else {
+                header.style.height = 'null'; //46px    
+            }
+        }
+
+        //tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+
+        for (let i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            //co ace lien ke
+
+
+            menuItem.onclick = function (evnt) {
+
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                // console.log(this); //this la chinh no
+                if (!isParentMenu) {
+                    header.style.height = null;
+
+                } else {
+                    event.preventDefault();
+                    //bo qua mac dinh
+                }
+            }
+
+        }
+
+    </script>
+
+    <script>
+        $(() => {
+            const mapTypes = [{
+                key: 'roadmap',
+                name: 'Road Map',
+            }, {
+                key: 'satellite',
+                name: 'Satellite (Photographic) Map',
+            }, {
+                key: 'hybrid',
+                name: 'Hybrid Map',
+            }];
+
+            const map = $('#map').dxMap({
+                center: 'Brooklyn Bridge,New York,NY',
+                zoom: 14,
+                height: 400,
+                width: '100%',
+                provider: 'bing',
+                apiKey: {
+                    // Specify your API keys for each map provider:
+                    // bing: "YOUR_BING_MAPS_API_KEY",
+                    // google: "YOUR_GOOGLE_MAPS_API_KEY",
+                    // googleStatic: "YOUR_GOOGLE_STATIC_MAPS_API_KEY"
+                },
+                type: mapTypes[0].key,
+            }).dxMap('instance');
+
+            $('#choose-type').dxSelectBox({
+                dataSource: mapTypes,
+                displayExpr: 'name',
+                valueExpr: 'key',
+                value: mapTypes[0].key,
+                onValueChanged(data) {
+                    map.option('type', data.value);
+                },
+            });
+        });
     </script>
 </body>
 
